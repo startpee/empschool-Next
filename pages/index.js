@@ -37,8 +37,8 @@ const Home = (props) => {
             <br></br>
           </h1>
           <span className="home-text03">
-            Com a nossa ajuda você aumenta suas vendas e cresce muito mais
-            Rápido 
+            Com a nossa ajuda você aumenta suas vendas e crescer muito mais
+            Rápido. 
           </span>
           <div className="home-btn-group">
             <button className="home-button button">Contratar</button>

@@ -430,7 +430,7 @@ Navbar.defaultProps = {
   image_alt1: 'image',
   text: 'Nossas redes',
   image_alt2: 'image',
-  PrimaryBtn: 'Baixar app',
+  PrimaryBtn: 'Contratar',
   PrimaryBtn1: 'Baixar app',
 }
 
