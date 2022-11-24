@@ -77,22 +77,8 @@ const Home = (props) => {
           <div className="home-section-six section-container">
             <div className="home-max-width max-content-container">
               <div className="home-content-container">
-                <h2 className="home-text08">
-                  <span>
-                    Se você já  tentou empreender e não deu certo, Acredito que
-                    tenha algo que você deve aprender e que podemos te
-                    ensinar,saiba que você não está 
-                  </span>
-                  <span className="home-text10">sozinho.</span>
-                </h2>
-              </div>
-            </div>
-          </div>
-          <div className="home-section-six1 section-container">
-            <div className="home-max-width1 max-content-container">
-              <div className="home-content-container1">
-                <h1 className="home-text11">Baixe o nosso app! </h1>
-                <span className="home-text12">
+                <h1 className="home-text08">Baixe o nosso app! </h1>
+                <span className="home-text09">
                   você vai descobrir que é facil montar seu proprio negócio
                 </span>
                 <div className="home-input-container">
@@ -117,7 +103,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text13">
+                    <span className="home-text10">
                       Seus dados Protegido (LGPD). 
                     </span>
                   </div>
@@ -128,7 +114,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text14">
+                    <span className="home-text11">
                       Comece com pouco dinheiro
                     </span>
                   </div>
@@ -139,7 +125,7 @@ const Home = (props) => {
                     >
                       <path d="M733.714 419.429c0-9.714-3.429-19.429-10.286-26.286l-52-51.429c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-233.143 232.571-129.143-129.143c-6.857-6.857-16-10.857-25.714-10.857s-18.857 4-25.714 10.857l-52 51.429c-6.857 6.857-10.286 16.571-10.286 26.286s3.429 18.857 10.286 25.714l206.857 206.857c6.857 6.857 16.571 10.857 25.714 10.857 9.714 0 19.429-4 26.286-10.857l310.286-310.286c6.857-6.857 10.286-16 10.286-25.714zM877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                     </svg>
-                    <span className="home-text15">
+                    <span className="home-text12">
                       nós seremos parceiro de negócios 
                     </span>
                   </div>
@@ -276,15 +262,14 @@ const Home = (props) => {
           .home-section-six {
             padding-top: var(--dl-space-space-threeunits);
             padding-bottom: 0px;
-            background-color: #ffffff;
+            background-color: var(--dl-color-backgrounds-primary);
           }
           .home-max-width {
-            height: 305px;
+            height: 437px;
             align-items: stretch;
           }
           .home-content-container {
             flex: 1;
-            height: 50%;
             display: flex;
             min-width: 60%;
             align-items: flex-start;
@@ -292,42 +277,13 @@ const Home = (props) => {
             justify-content: center;
           }
           .home-text08 {
-            width: 676px;
-            align-self: center;
-            margin-top: 12px;
-            text-align: center;
-            margin-left: 12px;
-            margin-right: 12px;
-            margin-bottom: 12px;
-          }
-          .home-text10 {
-            color: var(--dl-color-backgrounds-primary);
-          }
-          .home-section-six1 {
-            padding-top: var(--dl-space-space-threeunits);
-            padding-bottom: 0px;
-            background-color: var(--dl-color-backgrounds-primary);
-          }
-          .home-max-width1 {
-            height: 437px;
-            align-items: stretch;
-          }
-          .home-content-container1 {
-            flex: 1;
-            display: flex;
-            min-width: 60%;
-            align-items: flex-start;
-            flex-direction: column;
-            justify-content: center;
-          }
-          .home-text11 {
             align-self: center;
             margin-top: 12px;
             margin-left: 12px;
             margin-right: 12px;
             margin-bottom: 12px;
           }
-          .home-text12 {
+          .home-text09 {
             color: var(--dl-color-grays-white80);
             align-self: center;
             margin-top: 12px;
@@ -379,7 +335,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text13 {
+          .home-text10 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -400,7 +356,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text14 {
+          .home-text11 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -420,7 +376,7 @@ const Home = (props) => {
             min-width: 17px;
             margin-right: 12px;
           }
-          .home-text15 {
+          .home-text12 {
             color: var(--dl-color-grays-white80);
             font-size: 14px;
             font-style: normal;
@@ -451,20 +407,14 @@ const Home = (props) => {
               text-align: center;
             }
             .home-section-six {
-              height: 450px;
-            }
-            .home-max-width {
-              flex-direction: column;
-            }
-            .home-section-six1 {
               height: 524px;
               margin-bottom: 0px;
               padding-bottom: 38px;
             }
-            .home-max-width1 {
+            .home-max-width {
               flex-direction: column;
             }
-            .home-text11 {
+            .home-text08 {
               width: 100%;
               text-align: center;
             }
@@ -486,48 +436,31 @@ const Home = (props) => {
               text-align: center;
             }
             .home-section-six {
-              height: 864px;
-              padding-top: 0px;
+              height: 676px;
+              padding-top: 44px;
+              padding-bottom: 84px;
             }
             .home-max-width {
               height: 803px;
               margin: 12px;
             }
             .home-content-container {
-              height: 671px;
-              padding-top: 0px;
-            }
-            .home-text08 {
-              width: 706px;
-              height: 156px;
-              margin-bottom: var(--dl-space-space-twounits);
-            }
-            .home-section-six1 {
-              height: 676px;
-              padding-top: 44px;
-              padding-bottom: 84px;
-            }
-            .home-max-width1 {
-              height: 803px;
-              margin: 12px;
-            }
-            .home-content-container1 {
               height: 630px;
               padding-bottom: 108px;
             }
-            .home-text13 {
+            .home-text10 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
               font-weight: 400;
             }
-            .home-text14 {
+            .home-text11 {
               color: var(--dl-color-grays-white80);
               font-size: 14px;
               font-style: normal;
               font-weight: 400;
             }
-            .home-text15 {
+            .home-text12 {
               color: var(--dl-color-grays-white80);
               font-size: 19px;
               font-style: normal;
@@ -591,54 +524,17 @@ const Home = (props) => {
               z-index: 100;
             }
             .home-section-six {
-              width: 342px;
-              height: 566px;
-              padding: 12px;
-              align-items: flex-start;
-              padding-top: 0px;
-              margin-bottom: 0px;
-              flex-direction: column;
-              padding-bottom: 69px;
-            }
-            .home-max-width {
-              height: 388px;
-              margin-bottom: 0px;
-            }
-            .home-content-container {
-              width: auto;
-              height: 558px;
-              padding-top: 102px;
-              margin-bottom: 99px;
-              padding-bottom: 0px;
-            }
-            .home-text08 {
-              width: auto;
-              height: 252px;
-              font-size: 22px;
-              font-style: normal;
-              margin-top: 22px;
-              font-family: Lexend;
-              font-weight: 600;
-              line-height: 1.3;
-              margin-bottom: 22px;
-              text-transform: none;
-              text-decoration: none;
-            }
-            .home-text10 {
-              color: var(--dl-color-backgrounds-primary);
-            }
-            .home-section-six1 {
               width: auto;
               height: 621px;
               padding: 33px;
             }
-            .home-max-width1 {
+            .home-max-width {
               height: 804px;
             }
-            .home-content-container1 {
+            .home-content-container {
               height: 517px;
             }
-            .home-text11 {
+            .home-text08 {
               width: auto;
               font-size: 28px;
               font-style: normal;
@@ -649,7 +545,7 @@ const Home = (props) => {
               text-transform: none;
               text-decoration: none;
             }
-            .home-text12 {
+            .home-text09 {
               align-self: center;
               text-align: center;
               margin-right: var(--dl-space-space-unit);
