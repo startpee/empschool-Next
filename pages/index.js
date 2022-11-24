@@ -46,7 +46,7 @@ const Home = (props) => {
               href="https://www.instagram.com/reel/ClKeuqwIHyy/?utm_source=ig_web_copy_link"
               className="home-link button"
             >
-              Saber mais
+              Ver exemplo
             </a>
           </div>
         </div>
