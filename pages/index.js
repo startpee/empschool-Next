@@ -186,8 +186,6 @@ const Home = (props) => {
             color: rgb(255, 255, 255);
             font-size: 3rem;
             text-align: center;
-            border-color: var(--dl-color-grays-dark100);
-            border-width: 1px;
           }
           .home-text03 {
             color: rgb(255, 255, 255);
